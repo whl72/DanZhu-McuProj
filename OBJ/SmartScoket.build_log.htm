@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: JASON Microsoft, Microsoft, LIC=Y2B12-9J8TN-UM79A-1PZMP-CJLCQ-2960D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+D:\work\okin\淡竹项目\源代码\mcu-danzle-V1\USER\SmartScoket.uvprojx
+Project File Date:  05/11/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'SmartScoket'
+compiling esp8266.c...
+..\HARDWARE\IOCONTROL\iocontrol.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\ESP8266\esp8266.c(189): warning:  #188-D: enumerated type mixed with another type
+  		socket_reboot.reboot_mode = atoi(ptemp);
+..\HARDWARE\ESP8266\esp8266.c(212): warning:  #188-D: enumerated type mixed with another type
+  			setWifiWorkStatus(temp_data);
+..\HARDWARE\ESP8266\esp8266.c: 3 warnings, 0 errors
+compiling main.c...
+..\HARDWARE\IOCONTROL\iocontrol.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c: 1 warning, 0 errors
+compiling timer.c...
+..\HARDWARE\IOCONTROL\iocontrol.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\TIMER\timer.c: 1 warning, 0 errors
+compiling iocontrol.c...
+..\HARDWARE\IOCONTROL\iocontrol.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\IOCONTROL\iocontrol.c(19): warning:  #550-D: parameter "io_cont_flag"  was set but never used
+  void setIOControlFlag(uint8_t io_cont_flag)
+..\HARDWARE\IOCONTROL\iocontrol.c(24): warning:  #550-D: parameter "io_cont_flag"  was set but never used
+  void clearIOControlFlag(uint8_t io_cont_flag)
+..\HARDWARE\IOCONTROL\iocontrol.c(72): warning:  #940-D: missing return statement at end of non-void function "runRelay" 
+  }
+..\HARDWARE\IOCONTROL\iocontrol.c(149): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\IOCONTROL\iocontrol.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=18972 RO-data=924 RW-data=236 ZI-data=2660  
+FromELF: creating hex file...
+"..\OBJ\SmartScoket.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_SmartScoket
+  E:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
